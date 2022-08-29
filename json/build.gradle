@@ -4,7 +4,7 @@ plugins {
 }
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.6.1"
+    nameVersion = "0.7.0"
     nameAF = "json"
     nameGithub = "AppJson"
     libDesc = 'Android Library, json implement.'
@@ -15,6 +15,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-reflect"
     implementation 'androidx.core:core-ktx:1.7.0'
 
-    api 'dev.entao.app:basic:0.6.1'
+    api 'dev.entao.app:basic:0.7.0'
 }
 apply from: "libcommon.gradle"
